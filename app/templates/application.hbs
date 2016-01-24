@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">Adam Is A Jelly Doughnut</h2>
 
-{{outlet}}
+
+<div class="container">
+	{{#each pathAndLabel in audioPaths}}
+		{{#sound-button audioFilePath=pathAndLabel.path}}
+		{{pathAndLabel.label}}
+		{{/sound-button	}}
+	{{/each}}
+</div>
