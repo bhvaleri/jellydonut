@@ -1,4 +1,11 @@
+body {
+	padding: 10px;
+	font-family: sans-serif;
+	margin: 0;
+}
+
 .title {
+	margin: 0 0 15px 0;
 	text-align: center;
 }
 
@@ -6,24 +13,36 @@
 	border: 1px solid black;
 	cursor: pointer;
 	border-radius: 5px;
-	width: 100px	;
-	text-align: center;
-	margin: 10px;
-	float: left;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .container {
 	border: 1px solid black;
 	border-radius: 5px;
-	width: 400px;
-	overflow: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+	justify-content: space-around;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	height: 30%;
 }
 
 .play-random {
-	width: 400px;
+	width: 100%;
 	border: 1px solid black;
 	border-radius: 5px;
-	text-align: center;
 	margin-top: 10px;
 	cursor: pointer;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

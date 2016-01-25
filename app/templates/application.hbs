@@ -1,11 +1,15 @@
-<h2 class="title">Adam Is A Jelly Doughnut</h2>
+<h2 class="title">Jelly Doughnut</h2>
 
 
 <div class="container">
-	{{#each pathAndLabel in audioPaths}}
-		{{#sound-button audioFilePath=pathAndLabel.path}}
-		{{pathAndLabel.label}}
-		{{/sound-button	}}
+	{{#each pathAndLabelRow in audioPaths}}
+		<div class="row">
+			{{#each pathAndLabel in pathAndLabelRow}}
+				{{#sound-button audioFilePath=pathAndLabel.path}}
+					{{pathAndLabel.label}}
+				{{/sound-button	}}
+			{{/each}}
+		</div>
 	{{/each}}
 </div>
 
