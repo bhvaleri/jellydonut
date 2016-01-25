@@ -1,8 +1,12 @@
+.title {
+	text-align: center;
+}
+
 .sound-button {
 	border: 1px solid black;
 	cursor: pointer;
 	border-radius: 5px;
-	width: 100px;
+	width: 100px	;
 	text-align: center;
 	margin: 10px;
 	float: left;
@@ -13,4 +17,13 @@
 	border-radius: 5px;
 	width: 400px;
 	overflow: auto;
+}
+
+.play-random {
+	width: 400px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
 }

@@ -38,5 +38,17 @@ export default Ember.Controller.extend({
 		path: 'assets/audio/zwie-bier-bitte.m4a',
 		label: 'ZWIE BIER'
 	}
-	]
+	],
+
+	actions: {
+		playRandom: function () {
+			var length = $('audio').length;
+
+			var random = Math.floor(Math.random() * length);
+
+			$('audio')[random].play();
+		}
+	}
+
+
 })
