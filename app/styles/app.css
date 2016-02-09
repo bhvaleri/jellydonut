@@ -2,8 +2,7 @@ body {
 	padding: 10px;
 	font-family: sans-serif;
 	margin: 0;
-	background-color: black;
-	color: white;
+	background-color: white;
 }
 
 .title {
@@ -12,7 +11,7 @@ body {
 }
 
 .sound-button {
-	border: 1px solid white;
+	border: 1px solid black;
 	cursor: pointer;
 	border-radius: 5px;
 	width: 30%;
@@ -22,7 +21,7 @@ body {
 }
 
 .container {
-	border: 1px solid white;
+	border: 1px solid black;
 	border-radius: 5px;
 	width: 100%;
 	display: flex;
@@ -39,7 +38,7 @@ body {
 
 .play-random {
 	width: 100%;
-	border: 1px solid white;
+	border: 1px solid black;
 	border-radius: 5px;
 	margin-top: 10px;
 	cursor: pointer;
