@@ -1,7 +1,7 @@
 <h2 class="title">Jelly Doughnut</h2>
 {{#link-to "about"}}ABOUT{{/link-to}}
 
-<div class="container">
+{{!-- <div class="container">
 	{{#each pathAndLabelRow in audioPaths}}
 		<div class="row">
 			{{#each pathAndLabel in pathAndLabelRow}}
@@ -13,4 +13,6 @@
 	{{/each}}
 </div>
 
-<div class="play-random" {{action "playRandom"}}>Zoo Flesh</div>
+<div class="play-random" {{action "playRandom"}}>Zoo Flesh</div> --}}
+
+{{outlet}}
