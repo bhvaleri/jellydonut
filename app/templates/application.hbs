@@ -1,21 +1,13 @@
-<div class = "adamsContainer">
-<h2 class="title">Jelly Doughnut</h2>
-<h5 class ="nav">About</h5>
-<h5 class ="nav2"></h5>
+<div class="title-container">
+	<h2 class="title">Jelly Donut</h2>
+	
+
+		{{#link-to curRoute class='nav'}}{{linkToName}}{{/link-to}}
+
+
 </div>
 
-<div class="container">
-	{{#each pathAndLabelRow in audioPaths}}
-		<div class="row">
-			{{#each pathAndLabel in pathAndLabelRow}}
-				{{#sound-button audioFilePath=pathAndLabel.path}}
-					{{pathAndLabel.label}}
-				{{/sound-button	}}
-			{{/each}}
-		</div>
-	{{/each}}
-</div>
+{{poop}}
 
-<div class="play-random" {{action "playRandom"}}>Zoo Flesh</div>
 
 {{outlet}}

@@ -5,19 +5,37 @@ body {
 	background-color: white;
 }
 
-.adamsContainer{
+/*.adamsContainer{
 
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
 }
-
+*/
 .addBorder {
 	border: 1px dotted black;
 
 }
 
-.title {
+.title-container{
+	position: relative;
+}
+
+.nav {
+	position: absolute;
+	bottom:0;
+	text-decoration: none;
+}
+
+.nav:active {
+	color: black;
+}
+
+.title{
+	text-align: center;
+}
+
+/*.title {
 	display: flex;
 	order: 2;
 	margin: 0 0 15px 0;
@@ -37,7 +55,7 @@ body {
 	text-align: center;
 	justify-content: flex-end;
 }
-
+*/
 .sound-button {
 	border: 1px solid black;
 	cursor: pointer;
